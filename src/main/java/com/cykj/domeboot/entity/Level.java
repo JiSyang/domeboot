@@ -4,6 +4,8 @@ public class Level {
     private int id;
     private String name;
 
+    private int idd;
+
     public int getId() {
         return id;
     }
@@ -18,6 +20,14 @@ public class Level {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public int getIdd() {
+        return idd;
+    }
+
+    public void setIdd(int idd) {
+        this.idd = idd;
     }
 
     @Override
